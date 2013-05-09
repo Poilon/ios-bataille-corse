@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91FF72DA173C4193005D81B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FF72D9173C4193005D81B4 /* UIKit.framework */; };
+		91FF72DC173C4193005D81B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FF72DB173C4193005D81B4 /* Foundation.framework */; };
+		91FF72DE173C4193005D81B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FF72DD173C4193005D81B4 /* CoreGraphics.framework */; };
+		91FF72E4173C4193005D81B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91FF72E2173C4193005D81B4 /* InfoPlist.strings */; };
+		91FF72E6173C4193005D81B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FF72E5173C4193005D81B4 /* main.m */; };
+		91FF72EA173C4193005D81B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FF72E9173C4193005D81B4 /* AppDelegate.m */; };
+		91FF72EC173C4193005D81B4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FF72EB173C4193005D81B4 /* Default.png */; };
+		91FF72EE173C4193005D81B4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FF72ED173C4193005D81B4 /* Default@2x.png */; };
+		91FF72F0173C4193005D81B4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FF72EF173C4193005D81B4 /* Default-568h@2x.png */; };
+		91FF72F3173C4193005D81B4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FF72F1173C4193005D81B4 /* MainStoryboard.storyboard */; };
+		91FF72F6173C4193005D81B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FF72F5173C4193005D81B4 /* ViewController.m */; };
+		91FF72FE173C4193005D81B4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FF72FD173C4193005D81B4 /* SenTestingKit.framework */; };
+		91FF72FF173C4193005D81B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FF72D9173C4193005D81B4 /* UIKit.framework */; };
+		91FF7300173C4193005D81B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FF72DB173C4193005D81B4 /* Foundation.framework */; };
+		91FF7308173C4193005D81B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91FF7306173C4193005D81B4 /* InfoPlist.strings */; };
+		91FF730B173C4193005D81B4 /* Mexican_TarotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FF730A173C4193005D81B4 /* Mexican_TarotTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91FF7301173C4193005D81B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FF72CC173C4193005D81B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FF72D4173C4193005D81B4;
+			remoteInfo = "Mexican-Tarot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91FF72D5173C4193005D81B4 /* Mexican-Tarot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mexican-Tarot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FF72D9173C4193005D81B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91FF72DB173C4193005D81B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91FF72DD173C4193005D81B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91FF72E1173C4193005D81B4 /* Mexican-Tarot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mexican-Tarot-Info.plist"; sourceTree = "<group>"; };
+		91FF72E3173C4193005D81B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91FF72E5173C4193005D81B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91FF72E7173C4193005D81B4 /* Mexican-Tarot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mexican-Tarot-Prefix.pch"; sourceTree = "<group>"; };
+		91FF72E8173C4193005D81B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91FF72E9173C4193005D81B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91FF72EB173C4193005D81B4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		91FF72ED173C4193005D81B4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		91FF72EF173C4193005D81B4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		91FF72F2173C4193005D81B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		91FF72F4173C4193005D81B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91FF72F5173C4193005D81B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91FF72FC173C4193005D81B4 /* Mexican-TarotTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mexican-TarotTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FF72FD173C4193005D81B4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		91FF7305173C4193005D81B4 /* Mexican-TarotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mexican-TarotTests-Info.plist"; sourceTree = "<group>"; };
+		91FF7307173C4193005D81B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91FF7309173C4193005D81B4 /* Mexican_TarotTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mexican_TarotTests.h; sourceTree = "<group>"; };
+		91FF730A173C4193005D81B4 /* Mexican_TarotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mexican_TarotTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FF72D2173C4193005D81B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FF72DA173C4193005D81B4 /* UIKit.framework in Frameworks */,
+				91FF72DC173C4193005D81B4 /* Foundation.framework in Frameworks */,
+				91FF72DE173C4193005D81B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FF72F8173C4193005D81B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FF72FE173C4193005D81B4 /* SenTestingKit.framework in Frameworks */,
+				91FF72FF173C4193005D81B4 /* UIKit.framework in Frameworks */,
+				91FF7300173C4193005D81B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91FF72CA173C4193005D81B4 = {
+			isa = PBXGroup;
+			children = (
+				91FF72DF173C4193005D81B4 /* Mexican-Tarot */,
+				91FF7303173C4193005D81B4 /* Mexican-TarotTests */,
+				91FF72D8173C4193005D81B4 /* Frameworks */,
+				91FF72D6173C4193005D81B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91FF72D6173C4193005D81B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FF72D5173C4193005D81B4 /* Mexican-Tarot.app */,
+				91FF72FC173C4193005D81B4 /* Mexican-TarotTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FF72D8173C4193005D81B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91FF72D9173C4193005D81B4 /* UIKit.framework */,
+				91FF72DB173C4193005D81B4 /* Foundation.framework */,
+				91FF72DD173C4193005D81B4 /* CoreGraphics.framework */,
+				91FF72FD173C4193005D81B4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91FF72DF173C4193005D81B4 /* Mexican-Tarot */ = {
+			isa = PBXGroup;
+			children = (
+				91FF72E8173C4193005D81B4 /* AppDelegate.h */,
+				91FF72E9173C4193005D81B4 /* AppDelegate.m */,
+				91FF72F1173C4193005D81B4 /* MainStoryboard.storyboard */,
+				91FF72F4173C4193005D81B4 /* ViewController.h */,
+				91FF72F5173C4193005D81B4 /* ViewController.m */,
+				91FF72E0173C4193005D81B4 /* Supporting Files */,
+			);
+			path = "Mexican-Tarot";
+			sourceTree = "<group>";
+		};
+		91FF72E0173C4193005D81B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91FF72E1173C4193005D81B4 /* Mexican-Tarot-Info.plist */,
+				91FF72E2173C4193005D81B4 /* InfoPlist.strings */,
+				91FF72E5173C4193005D81B4 /* main.m */,
+				91FF72E7173C4193005D81B4 /* Mexican-Tarot-Prefix.pch */,
+				91FF72EB173C4193005D81B4 /* Default.png */,
+				91FF72ED173C4193005D81B4 /* Default@2x.png */,
+				91FF72EF173C4193005D81B4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91FF7303173C4193005D81B4 /* Mexican-TarotTests */ = {
+			isa = PBXGroup;
+			children = (
+				91FF7309173C4193005D81B4 /* Mexican_TarotTests.h */,
+				91FF730A173C4193005D81B4 /* Mexican_TarotTests.m */,
+				91FF7304173C4193005D81B4 /* Supporting Files */,
+			);
+			path = "Mexican-TarotTests";
+			sourceTree = "<group>";
+		};
+		91FF7304173C4193005D81B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91FF7305173C4193005D81B4 /* Mexican-TarotTests-Info.plist */,
+				91FF7306173C4193005D81B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FF72D4173C4193005D81B4 /* Mexican-Tarot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FF730E173C4193005D81B4 /* Build configuration list for PBXNativeTarget "Mexican-Tarot" */;
+			buildPhases = (
+				91FF72D1173C4193005D81B4 /* Sources */,
+				91FF72D2173C4193005D81B4 /* Frameworks */,
+				91FF72D3173C4193005D81B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mexican-Tarot";
+			productName = "Mexican-Tarot";
+			productReference = 91FF72D5173C4193005D81B4 /* Mexican-Tarot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91FF72FB173C4193005D81B4 /* Mexican-TarotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FF7311173C4193005D81B4 /* Build configuration list for PBXNativeTarget "Mexican-TarotTests" */;
+			buildPhases = (
+				91FF72F7173C4193005D81B4 /* Sources */,
+				91FF72F8173C4193005D81B4 /* Frameworks */,
+				91FF72F9173C4193005D81B4 /* Resources */,
+				91FF72FA173C4193005D81B4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FF7302173C4193005D81B4 /* PBXTargetDependency */,
+			);
+			name = "Mexican-TarotTests";
+			productName = "Mexican-TarotTests";
+			productReference = 91FF72FC173C4193005D81B4 /* Mexican-TarotTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FF72CC173C4193005D81B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Poilon;
+			};
+			buildConfigurationList = 91FF72CF173C4193005D81B4 /* Build configuration list for PBXProject "Mexican-Tarot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91FF72CA173C4193005D81B4;
+			productRefGroup = 91FF72D6173C4193005D81B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FF72D4173C4193005D81B4 /* Mexican-Tarot */,
+				91FF72FB173C4193005D81B4 /* Mexican-TarotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FF72D3173C4193005D81B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FF72E4173C4193005D81B4 /* InfoPlist.strings in Resources */,
+				91FF72EC173C4193005D81B4 /* Default.png in Resources */,
+				91FF72EE173C4193005D81B4 /* Default@2x.png in Resources */,
+				91FF72F0173C4193005D81B4 /* Default-568h@2x.png in Resources */,
+				91FF72F3173C4193005D81B4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FF72F9173C4193005D81B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FF7308173C4193005D81B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91FF72FA173C4193005D81B4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FF72D1173C4193005D81B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FF72E6173C4193005D81B4 /* main.m in Sources */,
+				91FF72EA173C4193005D81B4 /* AppDelegate.m in Sources */,
+				91FF72F6173C4193005D81B4 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FF72F7173C4193005D81B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FF730B173C4193005D81B4 /* Mexican_TarotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91FF7302173C4193005D81B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FF72D4173C4193005D81B4 /* Mexican-Tarot */;
+			targetProxy = 91FF7301173C4193005D81B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91FF72E2173C4193005D81B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FF72E3173C4193005D81B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91FF72F1173C4193005D81B4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FF72F2173C4193005D81B4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		91FF7306173C4193005D81B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FF7307173C4193005D81B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91FF730C173C4193005D81B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91FF730D173C4193005D81B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FF730F173C4193005D81B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mexican-Tarot/Mexican-Tarot-Prefix.pch";
+				INFOPLIST_FILE = "Mexican-Tarot/Mexican-Tarot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91FF7310173C4193005D81B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mexican-Tarot/Mexican-Tarot-Prefix.pch";
+				INFOPLIST_FILE = "Mexican-Tarot/Mexican-Tarot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91FF7312173C4193005D81B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mexican-Tarot.app/Mexican-Tarot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mexican-Tarot/Mexican-Tarot-Prefix.pch";
+				INFOPLIST_FILE = "Mexican-TarotTests/Mexican-TarotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		91FF7313173C4193005D81B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mexican-Tarot.app/Mexican-Tarot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mexican-Tarot/Mexican-Tarot-Prefix.pch";
+				INFOPLIST_FILE = "Mexican-TarotTests/Mexican-TarotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FF72CF173C4193005D81B4 /* Build configuration list for PBXProject "Mexican-Tarot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FF730C173C4193005D81B4 /* Debug */,
+				91FF730D173C4193005D81B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FF730E173C4193005D81B4 /* Build configuration list for PBXNativeTarget "Mexican-Tarot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FF730F173C4193005D81B4 /* Debug */,
+				91FF7310173C4193005D81B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91FF7311173C4193005D81B4 /* Build configuration list for PBXNativeTarget "Mexican-TarotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FF7312173C4193005D81B4 /* Debug */,
+				91FF7313173C4193005D81B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91FF72CC173C4193005D81B4 /* Project object */;
+}
